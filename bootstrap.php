@@ -2,10 +2,9 @@
 /**
  * Bootstrap file for bringing in autloading, etc
  */
+use Slim\Slim;
 
 require("vendor/autoload.php");
-
-use Slim\Slim;
 
 $app = new Slim();
 

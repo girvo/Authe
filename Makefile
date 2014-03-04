@@ -5,4 +5,4 @@ tests:
 	./vendor/bin/tester ./tests
 
 server:
-	@cd public;php -S localhost:4000 index.php
+	@cd public;php -S localhost:4000 
