@@ -1,0 +1,10 @@
+{
+    "require": {
+        "slim/slim": "2.4.2",
+        "nette/tester": "v1.0.0"
+    },
+    
+    "autoload": {
+        "PSR-4": { "\\Authe": "src/" }
+    }
+}
