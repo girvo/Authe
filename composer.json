@@ -5,6 +5,6 @@
     },
     
     "autoload": {
-        "PSR-4": { "\\Authe": "src/" }
+        "psr-4": { "Authe\\": "src/" }
     }
 }
