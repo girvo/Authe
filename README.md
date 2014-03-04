@@ -1,3 +1,4 @@
-# Authe, A Framework Agnostic Authentication Library
+# Authe
+## A Framework Agnostic Authentication Library
 
-To be filled out soon
+The name will be changed as this is filled out, this will do for now!
