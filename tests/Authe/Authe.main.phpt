@@ -1,22 +1,24 @@
 <?php
-
+/**
+ * The main test-cases for the Authe class.
+ */
 use Tester\Assert;
 use Authe\Authe;
 
 // Load the bootstrap
 require(__DIR__ . "/../bootstrap.php");
 
-function testCheckAndDoLogin() {
+function loginAndGetToken() {
     $Authe = new Authe();
 
     $username = "testusername";
     $password = "testpassword";
     
-    $loginResult = $Authe->checkAndDoLogin($username, $password);
+    $loginResult = $Authe->loginAndGetToken($username, $password);
     
     Assert::same($loginResult, "test");
 }
 
 
 // now run the tests
-testCheckAndDoLogin();
+testLoginAndGetToken();
