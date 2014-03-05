@@ -3,12 +3,12 @@ all:
 
 test:
 ifdef W
-	vendor/bin/tester -w tests
+	vendor/bin/tester -w -j 20 tests
 endif
 ifdef NS
-	vendor/bin/tester tests/$(NS)
+	vendor/bin/tester -j 20 tests/$(NS)
 else
-	vendor/bin/tester tests
+	vendor/bin/tester -j 20 tests
 endif
 
 server:
