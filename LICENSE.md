@@ -1,4 +1,6 @@
-The MIT License (MIT)
+The MIT License
+===============
+
 Copyright © 2014 Joshua Girvin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
